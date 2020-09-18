@@ -1,9 +1,9 @@
 import React from 'react'
 
-export function Header(){
+export function Header(props) {
     return (
         <header>
-            Ninja
+            <h1>{props.title}</h1>
         </header>
     )
 }
